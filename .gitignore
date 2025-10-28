@@ -1,24 +1,182 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+# ==========================================
+# St. Aloysius Gonzaga Website - .gitignore
+# Developer: Knoph O. Ayieko
+# ==========================================
 
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# --- System Files ---
 .DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# --- IDE & Editor Settings ---
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.sublime-workspace
+*.sublime-project
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# --- OS & Temporary Files ---
+*.tmp
+*.bak
+*.swp
+*.swo
+*.old
+*.orig
+*.cache
+*.pid
+
+# --- Logs & Reports ---
+*.log
+*.report
+*.json.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+debug.log
+
+# --- Node.js (if used for frontend build) ---
+node_modules/
+dist/
+dist-ssr/
+build/
+.cache/
+.next/
+out/
+coverage/
+bower_components/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# --- PHP & Composer ---
+vendor/
+composer.phar
+composer.lock
+.phpunit.result.cache
+phpunit.xml
+phpunit.xml.dist
+*.phar
+storage/
+bootstrap/cache/
+.env
+.env.*
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+*.local
+
+# --- Laravel / Framework (if applicable) ---
+/storage/*.key
+/public/storage
+/storage/logs
+/storage/framework/*
+/bootstrap/cache/*
+Homestead.yaml
+Homestead.json
+.env.backup
+
+# --- Database & Config Backups ---
+*.sql
+*.sqlite
+*.db
+*.db3
+*.sql.gz
+*.sql.zip
+*.bak
+*.old
+
+# --- Uploads & User Content ---
+/uploads/*
+!/uploads/.gitkeep
+
+# --- Cache, Sessions, and Temporary Files ---
+/tmp
+/temp
+/cache
+/sessions
+/sessions/*
+*.session
+
+# --- OS-specific ---
+ehthumbs_vista.db
+[Tt]humbs.db
+
+# --- Deployment Files (cPanel/Host Specific) ---
+/cpanel/
+.htaccess.bak
+error_log
+cgi-bin/
+sitemap.xml.bak
+robots.txt.bak
+*.tar
+*.zip
+*.rar
+*.7z
+
+# --- Frontend Builds / Compiled Assets ---
+/assets/css/*.map
+/assets/js/*.map
+/public/assets/*.map
+/public/css/*.map
+/public/js/*.map
+
+# --- Environment Specific Files ---
+.env.local
+.env.development
+.env.production
+.env.testing
+.env.staging
+*.env
+
+# --- SSL and Private Keys ---
+*.pem
+*.crt
+*.key
+*.csr
+*.pfx
+*.cer
+
+# --- Security-sensitive ---
+secrets.json
+config.json
+private_keys/
+credentials/
+api_keys/
+auth.json
+token.json
+
+# --- Temporary Builds ---
+/build/
+/coverage/
+/node_modules/
+/bower_components/
+
+# --- Project Specific ---
+/config/db_config.php
+/config/database.php
+/config/payments.php
+/config/credentials.php
+/.htaccess.local
+
+# --- Git itself ---
+.gitignore
+.gitmodules
+.gitconfig
+
+# --- Keep necessary empty directories ---
+!/uploads/.gitkeep
+!/storage/.gitkeep
+!/logs/.gitkeep
+
+# End of .gitignore
+# ==========================================
