@@ -1,15 +1,15 @@
 # St. Aloysius Gonzaga Website  
 *(Live site: [staloysiusgonzaga.org](https://staloysiusgonzaga.org))*
 
-**Developer:** Knoph Oluoch Ayieko  
-**Copyright:** © 2025 Knoph Oluoch Ayieko. All rights reserved.  
+**Developer:** Knoph O. Ayieko  
+**Copyright:** © 2025 St. aloysius Gonzaga. All rights reserved.  
 **License:** MIT License  
 
 ---
 
 ## 🏫 Project Overview  
 This repository contains the official source code for **St. Aloysius Gonzaga Secondary School**, a Jesuit-inspired institution in Kibera, Nairobi.  
-The website showcases the school’s mission, activities, and a **secure donation system** that supports students from vulnerable communities.  
+The website showcases the school’s mission, activities and a **secure donation system** that supports students from vulnerable communities.  
 
 The **Donations Portal** enables contributors to donate conveniently through **M‑Pesa Paybill** or **online payment methods**, directly supporting education and community empowerment.  
 
@@ -17,10 +17,10 @@ The **Donations Portal** enables contributors to donate conveniently through **M
 
 ## 🌐 Live Site & Deployment  
 - **Live URL:** [https://staloysiusgonzaga.org](https://staloysiusgonzaga.org)  
-- **Deployment:** Deployed and managed by *Knoph Oluoch Ayieko*  
+- **Deployment:** Deployed and managed by *Knoph O. Ayieko*  
 - **Hosting Platform:** cPanel Shared Hosting (HTTPS Enabled)  
 - **Domain:** staloysiusgonzaga.org (secured with SSL Certificate)  
-- **Version:** v1.0.0 (Stable)  
+- **Version:** v1.3.0 (Stable)  
 
 ---
 
@@ -31,7 +31,7 @@ The **Donations Portal** enables contributors to donate conveniently through **M
 
 **Back‑End:**  
 - PHP 8+ (Native structure, clean modular codebase)  
-- Form processing, session management, and secure routing  
+- Form processing, session management and secure routing  
 
 **Database:**  
 - MySQL (via phpMyAdmin)  
@@ -48,7 +48,7 @@ The **Donations Portal** enables contributors to donate conveniently through **M
 ## 🚀 Key Features  
 - Dynamic pages: Home, About, Admissions, Departments, Support Us, Media, Contact  
 - **Donations Page:** M‑Pesa and PayPal donation options  
-- Responsive design across mobile, tablet, and desktop  
+- Responsive design across mobile, tablet and desktop  
 - Gallery and event management modules  
 - Optimized SEO and fast page load speed  
 - Secure contact forms and input validation  
@@ -136,10 +136,10 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 ---
 
 **Developed and Maintained by:**  
-👨🏽‍💻 **Knoph Oluoch Ayieko** — [knoph.dev](https://knoph.dev)  
+👨🏽‍💻 **Knoph O. Ayieko** — [knoph.dev](https://knoph.dev)  
 📧 **Email:** knophayieko@gmail.com  
 🔗 **GitHub:** [Knoph1](https://github.com/Knoph1)  
 🔗 **LinkedIn:** [Knoph Ayieko](https://www.linkedin.com/in/knoph-ayieko/)  
 
 ---
-*Last Updated: October 2025*
+*Last Updated: 28<sub>th</sub> October. 2025 - Tuesday*
