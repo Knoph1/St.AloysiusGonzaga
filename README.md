@@ -2,7 +2,7 @@
 *(Live site: [staloysiusgonzaga.org](https://staloysiusgonzaga.org))*
 
 **Developer:** Knoph O. Ayieko  
-**Copyright:** © 2025 St. aloysius Gonzaga. All rights reserved.  
+**Copyright:** © 2025 St. Aloysius Gonzaga. All rights reserved.  
 **License:** MIT License  
 
 ---
@@ -17,7 +17,7 @@ The **Donations Portal** enables contributors to donate conveniently through **M
 
 ## 🌐 Live Site & Deployment  
 - **Live URL:** [https://staloysiusgonzaga.org](https://staloysiusgonzaga.org)  
-- **Deployment:** Deployed and managed by *Knoph O. Ayieko*  
+- **Deployment:** Deployed and managed by *Knoph O.  Ayieko*  
 - **Hosting Platform:** cPanel Shared Hosting (HTTPS Enabled)  
 - **Domain:** staloysiusgonzaga.org (secured with SSL Certificate)  
 - **Version:** v1.3.0 (Stable)  
