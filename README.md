@@ -142,4 +142,4 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 🔗 **LinkedIn:** [Knoph Ayieko](https://www.linkedin.com/in/knoph-ayieko/)  
 
 ---
-*Last Updated: 28<sub>th</sub> October. 2025 - Tuesday*
+*Last Updated: 28<sup>th</sup> October, 2025 - Tuesday*
