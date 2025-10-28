@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2025 Knoph O. Ayieko | ALX Africa, Front-End Web Development
+Copyright (c) 2025 Knoph O. Ayieko - St. Aloysius Gonzaga | All rights reserved.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
