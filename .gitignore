@@ -43,7 +43,7 @@ pnpm-debug.log*
 lerna-debug.log*
 debug.log
 
-# --- Node.js (if used for frontend build) ---
+# --- Node.js (used for frontend build) ---
 node_modules/
 dist/
 dist-ssr/
@@ -75,7 +75,7 @@ bootstrap/cache/
 .env.test.local
 *.local
 
-# --- Laravel / Framework (if applicable) ---
+# --- Laravel / Framework (applicable) ---
 /storage/*.key
 /public/storage
 /storage/logs
@@ -99,7 +99,7 @@ Homestead.json
 /uploads/*
 !/uploads/.gitkeep
 
-# --- Cache, Sessions, and Temporary Files ---
+# --- Cache, Sessions and Temporary Files ---
 /tmp
 /temp
 /cache
