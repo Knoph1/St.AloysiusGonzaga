@@ -1,73 +1,145 @@
-# Welcome to your Lovable project
+# St. Aloysius Gonzaga Website  
+*(Live site: [staloysiusgonzaga.org](https://staloysiusgonzaga.org))*
 
-## Project info
+**Developer:** Knoph Oluoch Ayieko  
+**Copyright:** © 2025 Knoph Oluoch Ayieko. All rights reserved.  
+**License:** MIT License  
 
-**URL**: https://lovable.dev/projects/d6e44e19-9d31-4ca8-83f0-b82551adf8ce
+---
 
-## How can I edit this code?
+## 🏫 Project Overview  
+This repository contains the official source code for **St. Aloysius Gonzaga Secondary School**, a Jesuit-inspired institution in Kibera, Nairobi.  
+The website showcases the school’s mission, activities, and a **secure donation system** that supports students from vulnerable communities.  
 
-There are several ways of editing your application.
+The **Donations Portal** enables contributors to donate conveniently through **M‑Pesa Paybill** or **online payment methods**, directly supporting education and community empowerment.  
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/d6e44e19-9d31-4ca8-83f0-b82551adf8ce) and start prompting.
+## 🌐 Live Site & Deployment  
+- **Live URL:** [https://staloysiusgonzaga.org](https://staloysiusgonzaga.org)  
+- **Deployment:** Deployed and managed by *Knoph Oluoch Ayieko*  
+- **Hosting Platform:** cPanel Shared Hosting (HTTPS Enabled)  
+- **Domain:** staloysiusgonzaga.org (secured with SSL Certificate)  
+- **Version:** v1.0.0 (Stable)  
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## ⚙️ Tech Stack  
+**Front‑End:**  
+- HTML5, CSS3, JavaScript (Vanilla + Bootstrap 5)  
+- Responsive UI/UX for all screen sizes  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+**Back‑End:**  
+- PHP 8+ (Native structure, clean modular codebase)  
+- Form processing, session management, and secure routing  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+**Database:**  
+- MySQL (via phpMyAdmin)  
 
-Follow these steps:
+**Payment Integrations:**  
+- Safaricom M‑Pesa Paybill  
+- Online donation gateway (PayPal-ready module)  
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+**Version Control:** Git + GitHub  
+**Deployment Tools:** FileZilla, GitHub Actions (manual CI/CD workflow)  
+
+---
+
+## 🚀 Key Features  
+- Dynamic pages: Home, About, Admissions, Departments, Support Us, Media, Contact  
+- **Donations Page:** M‑Pesa and PayPal donation options  
+- Responsive design across mobile, tablet, and desktop  
+- Gallery and event management modules  
+- Optimized SEO and fast page load speed  
+- Secure contact forms and input validation  
+- Integration with school’s email and communication systems  
+
+---
+
+## 🧩 Installation & Local Setup  
+
+Clone the repository:  
+```bash
 git clone https://github.com/Knoph1/St.AloysiusGonzaga.git
-
-# Step 2: Navigate to the project directory.
 cd St.AloysiusGonzaga
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
 ```
 
-**Edit a file directly in GitHub**
+If running locally (PHP):  
+```bash
+php -S localhost:8000
+```
+Then visit: [http://localhost:8000](http://localhost:8000)  
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Ensure your environment supports:  
+- PHP ≥ 8.0  
+- MySQL Database  
+- Apache / Nginx  
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📂 Folder Structure  
+```
+St.AloysiusGonzaga/
+├── assets/
+│   ├── css/
+│   ├── js/
+│   ├── images/
+├── includes/
+│   ├── header.php
+│   ├── footer.php
+├── pages/
+│   ├── donations.php
+│   ├── about.php
+│   ├── admissions.php
+│   ├── departments.php
+│   ├── support-us.php
+├── config/
+│   └── database.php
+├── index.php
+├── .gitignore
+└── README.md
+```
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 🧠 Developer Notes  
+- All pages are modularized using PHP includes for reusability.  
+- Donation forms are integrated securely via HTTPS POST.  
+- Ensure `.env` or `config.php` files are not committed to GitHub (security best practice).  
+- SEO optimization: meta tags, Open Graph, structured data included.  
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 🤝 Contributing  
+This is a **production-level institutional site**.  
+For contributions or updates, kindly contact the developer before submitting pull requests.  
 
-Simply open [Lovable](https://lovable.dev/projects/d6e44e19-9d31-4ca8-83f0-b82551adf8ce) and click on Share -> Publish.
+**Steps:**  
+1. Fork the repository  
+2. Create your feature branch (`feature/your-feature`)  
+3. Commit and push your changes  
+4. Open a Pull Request  
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## 📜 License  
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.  
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 🙏 Acknowledgements  
+- The **Jesuit Fathers & School Administration** for vision and collaboration.  
+- **Breeze Technologies** for technical inspiration.  
+- **Donors & Volunteers** who make St. Aloysius Gonzaga’s mission possible.  
+- All open-source technologies used in development.  
+
+---
+
+**Developed and Maintained by:**  
+👨🏽‍💻 **Knoph Oluoch Ayieko** — [knoph.dev](https://knoph.dev)  
+📧 **Email:** knophayieko@gmail.com  
+🔗 **GitHub:** [Knoph1](https://github.com/Knoph1)  
+🔗 **LinkedIn:** [Knoph Ayieko](https://www.linkedin.com/in/knoph-ayieko/)  
+
+---
+*Last Updated: October 2025*
