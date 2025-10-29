@@ -57,19 +57,23 @@ const DepartmentSection = () => {
                 <p className="text-muted-foreground mb-4 leading-relaxed line-clamp-3">
                   {dept.description}
                 </p>
-                <Button variant="link" className="p-0 h-auto text-primary group-hover:gap-2 transition-all">
-                  Read More
-                  <ArrowRight className="h-4 w-4 ml-1 group-hover:translate-x-1 transition-transform" />
-                </Button>
+                <a href="/about">
+                  <Button variant="link" className="p-0 h-auto text-primary group-hover:gap-2 transition-all">
+                    Read More
+                    <ArrowRight className="h-4 w-4 ml-1 group-hover:translate-x-1 transition-transform" />
+                  </Button>
+                </a>
               </CardContent>
             </Card>
           ))}
         </div>
 
         <div className="text-center mt-12">
-          <Button size="lg" variant="outline" className="border-2">
-            View All Departments
-          </Button>
+          <a href="/about">
+            <Button size="lg" variant="outline" className="border-2">
+              View All Departments
+            </Button>
+          </a>
         </div>
       </div>
     </section>

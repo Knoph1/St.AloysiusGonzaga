@@ -68,18 +68,24 @@ const Navigation = () => {
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
-                  <NavigationMenuTrigger>Departments</NavigationMenuTrigger>
+                  <NavigationMenuTrigger>Academics</NavigationMenuTrigger>
                   <NavigationMenuContent>
-                    <div className="w-48 p-2">
-                      <NavigationMenuLink href="/departments" className="block px-4 py-2 hover:bg-muted rounded-md">
-                        All Departments
-                      </NavigationMenuLink>
-                      <NavigationMenuLink href="/science" className="block px-4 py-2 hover:bg-muted rounded-md">
-                        Science
-                      </NavigationMenuLink>
-                      <NavigationMenuLink href="/languages" className="block px-4 py-2 hover:bg-muted rounded-md">
-                        Languages
-                      </NavigationMenuLink>
+                    <div className="w-48 p-2 bg-background">
+                      <Link to="/about">
+                        <NavigationMenuLink className="block px-4 py-2 hover:bg-muted rounded-md">
+                          Curriculum
+                        </NavigationMenuLink>
+                      </Link>
+                      <Link to="/about">
+                        <NavigationMenuLink className="block px-4 py-2 hover:bg-muted rounded-md">
+                          Departments
+                        </NavigationMenuLink>
+                      </Link>
+                      <Link to="/about">
+                        <NavigationMenuLink className="block px-4 py-2 hover:bg-muted rounded-md">
+                          Academic Calendar
+                        </NavigationMenuLink>
+                      </Link>
                     </div>
                   </NavigationMenuContent>
                 </NavigationMenuItem>
@@ -126,15 +132,19 @@ const Navigation = () => {
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
-                  <NavigationMenuTrigger>School Portals</NavigationMenuTrigger>
+                  <NavigationMenuTrigger>Resources</NavigationMenuTrigger>
                   <NavigationMenuContent>
-                    <div className="w-48 p-2">
-                      <NavigationMenuLink href="/student-portal" className="block px-4 py-2 hover:bg-muted rounded-md">
-                        Student Portal
-                      </NavigationMenuLink>
-                      <NavigationMenuLink href="/staff-portal" className="block px-4 py-2 hover:bg-muted rounded-md">
-                        Staff Portal
-                      </NavigationMenuLink>
+                    <div className="w-48 p-2 bg-background">
+                      <Link to="/news">
+                        <NavigationMenuLink className="block px-4 py-2 hover:bg-muted rounded-md">
+                          News & Events
+                        </NavigationMenuLink>
+                      </Link>
+                      <Link to="/contact">
+                        <NavigationMenuLink className="block px-4 py-2 hover:bg-muted rounded-md">
+                          Support & FAQ
+                        </NavigationMenuLink>
+                      </Link>
                     </div>
                   </NavigationMenuContent>
                 </NavigationMenuItem>

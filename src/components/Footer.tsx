@@ -27,23 +27,24 @@ const Footer = () => {
           <div>
             <h4 className="font-bold text-lg mb-4">Quick Links</h4>
             <ul className="space-y-2 text-sm">
+              <li><a href="/" className="opacity-80 hover:opacity-100 transition-opacity">Home</a></li>
               <li><a href="/about" className="opacity-80 hover:opacity-100 transition-opacity">About Us</a></li>
               <li><a href="/admissions" className="opacity-80 hover:opacity-100 transition-opacity">Admissions</a></li>
-              <li><a href="/departments" className="opacity-80 hover:opacity-100 transition-opacity">Departments</a></li>
+              <li><a href="/news" className="opacity-80 hover:opacity-100 transition-opacity">News</a></li>
               <li><a href="/gallery" className="opacity-80 hover:opacity-100 transition-opacity">Gallery</a></li>
               <li><a href="/contact" className="opacity-80 hover:opacity-100 transition-opacity">Contact</a></li>
             </ul>
           </div>
 
-          {/* Departments */}
+          {/* Resources */}
           <div>
-            <h4 className="font-bold text-lg mb-4">Departments</h4>
+            <h4 className="font-bold text-lg mb-4">Resources</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="/science" className="opacity-80 hover:opacity-100 transition-opacity">Science</a></li>
-              <li><a href="/languages" className="opacity-80 hover:opacity-100 transition-opacity">Languages</a></li>
-              <li><a href="/mathematics" className="opacity-80 hover:opacity-100 transition-opacity">Mathematics</a></li>
-              <li><a href="/humanities" className="opacity-80 hover:opacity-100 transition-opacity">Humanities</a></li>
-              <li><a href="/sports" className="opacity-80 hover:opacity-100 transition-opacity">Sports</a></li>
+              <li><a href="/admissions" className="opacity-80 hover:opacity-100 transition-opacity">Apply Online</a></li>
+              <li><a href="/news" className="opacity-80 hover:opacity-100 transition-opacity">Latest News</a></li>
+              <li><a href="/gallery" className="opacity-80 hover:opacity-100 transition-opacity">Photo Gallery</a></li>
+              <li><a href="/about" className="opacity-80 hover:opacity-100 transition-opacity">School History</a></li>
+              <li><a href="/contact" className="opacity-80 hover:opacity-100 transition-opacity">Get Directions</a></li>
             </ul>
           </div>
 
@@ -69,13 +70,13 @@ const Footer = () => {
               </li>
             </ul>
             <div className="flex gap-3 mt-4">
-              <a href="#" className="bg-white/10 hover:bg-white/20 p-2 rounded-full transition-colors" aria-label="Facebook">
+              <a href="https://www.facebook.com/staloysiusgonzaga" target="_blank" rel="noopener noreferrer" className="bg-white/10 hover:bg-white/20 p-2 rounded-full transition-colors" aria-label="Facebook">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="bg-white/10 hover:bg-white/20 p-2 rounded-full transition-colors" aria-label="Instagram">
+              <a href="https://www.instagram.com/staloysiusgonzaga" target="_blank" rel="noopener noreferrer" className="bg-white/10 hover:bg-white/20 p-2 rounded-full transition-colors" aria-label="Instagram">
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="#" className="bg-white/10 hover:bg-white/20 p-2 rounded-full transition-colors" aria-label="YouTube">
+              <a href="https://www.youtube.com/staloysiusgonzaga" target="_blank" rel="noopener noreferrer" className="bg-white/10 hover:bg-white/20 p-2 rounded-full transition-colors" aria-label="YouTube">
                 <Youtube className="h-5 w-5" />
               </a>
             </div>
