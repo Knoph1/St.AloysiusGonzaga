@@ -80,19 +80,23 @@ const HeroCarousel = () => {
                 {slide.description}
               </p>
               <div className="flex gap-4">
-                <Button 
-                  size="lg" 
-                  className="bg-white text-primary hover:bg-white/90 font-semibold"
-                >
-                  About Us
-                </Button>
-                <Button 
-                  size="lg" 
-                  variant="outline"
-                  className="border-2 border-white text-white hover:bg-white/10"
-                >
-                  Our Departments
-                </Button>
+                <a href="/about">
+                  <Button 
+                    size="lg" 
+                    className="bg-white text-primary hover:bg-white/90 font-semibold btn-glow"
+                  >
+                    About Us
+                  </Button>
+                </a>
+                <a href="/admissions">
+                  <Button 
+                    size="lg" 
+                    variant="outline"
+                    className="border-2 border-white text-white hover:bg-white/10 backdrop-blur-sm"
+                  >
+                    Apply Now
+                  </Button>
+                </a>
               </div>
             </div>
           </div>

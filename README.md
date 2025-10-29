@@ -20,28 +20,35 @@ The **Donations Portal** enables contributors to donate conveniently through **M
 - **Deployment:** Deployed and managed by *Knoph O. Ayieko*  
 - **Hosting Platform:** cPanel Shared Hosting (HTTPS Enabled)  
 - **Domain:** staloysiusgonzaga.org (secured with SSL Certificate)  
-- **Version:** v1.3.0 (Stable)  
+- **Version:** 1.3.0 (Stable - Enhanced)  
 
 ---
 
 ## ⚙️ Tech Stack  
 **Front‑End:**  
-- HTML5, CSS3, JavaScript (Vanilla + Bootstrap 5)  
+- React 18 with TypeScript  
+- Vite (Fast build tool)  
+- Tailwind CSS (Utility-first CSS framework)  
+- Shadcn/ui Components  
+- React Router DOM (Client-side routing)  
 - Responsive UI/UX for all screen sizes  
 
-**Back‑End:**  
-- PHP 8+ (Native structure, clean modular codebase)  
-- Form processing, session management and secure routing  
+**State Management:**  
+- TanStack Query (React Query)  
+- React Hooks (useState, useEffect, etc.)  
 
-**Database:**  
-- MySQL (via phpMyAdmin)  
+**UI/UX Libraries:**  
+- Radix UI Primitives  
+- Lucide React Icons  
+- Embla Carousel  
+- Sonner Toast Notifications  
 
-**Payment Integrations:**  
-- Safaricom M‑Pesa Paybill  
-- Online donation gateway (PayPal-ready module)  
+**Form Handling:**  
+- React Hook Form  
+- Zod (Schema validation)  
 
 **Version Control:** Git + GitHub  
-**Deployment Tools:** FileZilla, GitHub Actions (manual CI/CD workflow)  
+**Deployment:** Lovable Platform (Auto-deployment)
 
 ---
 

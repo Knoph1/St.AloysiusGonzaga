@@ -76,9 +76,11 @@ const VideoSection = () => {
         </div>
 
         <div className="text-center">
-          <Button variant="outline" size="lg">
-            View All Videos
-          </Button>
+          <a href="/gallery">
+            <Button variant="outline" size="lg" className="border-2">
+              View All Videos & Media
+            </Button>
+          </a>
         </div>
 
         <div className="mt-16 bg-primary text-primary-foreground rounded-2xl p-8 flex flex-col md:flex-row items-center justify-between">

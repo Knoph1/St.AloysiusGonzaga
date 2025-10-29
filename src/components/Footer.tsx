@@ -83,7 +83,11 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-background/20 pt-8 text-center text-sm opacity-80">
-          <p>&copy; {new Date().getFullYear()} St. Aloysius Gonzaga Secondary School. All rights reserved.</p>
+          <p className="mb-2">&copy; {new Date().getFullYear()} St. Aloysius Gonzaga Secondary School. All rights reserved.</p>
+          <p className="text-xs">
+            Project: <span className="font-semibold">St.AloysiusGonzaga</span> | Version: <span className="font-semibold">1.3.0</span> | 
+            Developed by <a href="https://github.com/Knoph1" className="hover:underline font-semibold" target="_blank" rel="noopener noreferrer">Knoph O. Ayieko</a>
+          </p>
         </div>
       </div>
     </footer>

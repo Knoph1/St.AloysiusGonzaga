@@ -68,9 +68,11 @@ const AboutSection = () => {
         </div>
 
         <div className="text-center mt-12">
-          <Button size="lg" className="bg-primary hover:bg-primary/90">
-            Discover More
-          </Button>
+          <a href="/about">
+            <Button size="lg" className="bg-primary hover:bg-primary/90 btn-glow">
+              Discover More About Us
+            </Button>
+          </a>
         </div>
       </div>
     </section>

@@ -38,13 +38,17 @@ All colors MUST be HSL.
 
     --radius: 0.5rem;
     
-    /* Custom design tokens */
+    /* Custom design tokens - St. Aloysius Gonzaga Theme */
     --hero-overlay: 0 0% 0% / 0.4;
     --gradient-primary: linear-gradient(135deg, hsl(173 58% 39%), hsl(199 89% 48%));
-    --gradient-hero: linear-gradient(to right, hsl(173 58% 39% / 0.9), hsl(199 89% 48% / 0.8));
+    --gradient-secondary: linear-gradient(135deg, hsl(199 89% 48%), hsl(142 76% 36%));
+    --gradient-hero: linear-gradient(to right, hsl(173 58% 39% / 0.9), hsl(173 58% 39% / 0.7), hsl(199 89% 48% / 0.8));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(210 40% 98%));
     --shadow-card: 0 4px 6px -1px hsl(220 13% 13% / 0.1), 0 2px 4px -1px hsl(220 13% 13% / 0.06);
     --shadow-hover: 0 10px 15px -3px hsl(220 13% 13% / 0.1), 0 4px 6px -2px hsl(220 13% 13% / 0.05);
+    --shadow-glow: 0 0 30px hsl(173 58% 39% / 0.2);
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
     --sidebar-background: 0 0% 98%;
 
@@ -112,6 +116,91 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+@layer components {
+  .scroll-to-top {
+    @apply fixed bottom-8 right-8 z-50 bg-primary text-primary-foreground p-3 rounded-full shadow-lg transition-all duration-300 hover:scale-110;
+  }
+
+  .scroll-to-top:hover {
+    box-shadow: var(--shadow-glow);
+  }
+
+  .page-hero {
+    @apply relative h-[400px] bg-gradient-to-r from-primary via-primary to-secondary flex items-center justify-center overflow-hidden;
+  }
+
+  .hero-overlay {
+    @apply absolute inset-0 bg-black/30;
+  }
+
+  .section-heading {
+    @apply text-4xl font-bold mb-4 font-serif text-center;
+  }
+
+  .section-subheading {
+    @apply text-muted-foreground text-lg max-w-2xl mx-auto text-center;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:-translate-y-1;
+    box-shadow: var(--shadow-card);
+  }
+
+  .card-hover:hover {
+    box-shadow: var(--shadow-hover);
+  }
+
+  .link-hover {
+    @apply transition-colors duration-200 hover:text-primary;
+  }
+
+  .btn-glow {
+    @apply shadow-lg transition-all duration-300;
+  }
+
+  .btn-glow:hover {
+    box-shadow: var(--shadow-glow);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.6s ease-out;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.6s ease-out;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 }
